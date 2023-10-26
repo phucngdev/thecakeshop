@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Cutive+Mono&family=Didact+Gothic&family=Montserrat:wght@100&family=Pinyon+Script&display=swap');
+.page-order {
+    width: 100%;
+    height: 100%;
+    padding: 75px 0;
+}
+.page-order-pd {
+    width: 100%;
+    height: 100%;
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+.left-page {
+    padding-right: 45px;
+    width: 100%;
+}
+.left-page h2 {
+    margin-bottom: 15px;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 32px;
+    text-align: center;
+}
+.left-page h3 {
+    margin-bottom: 15px;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 22px;
+    margin-top: 30px;
+}
+.left-page p {
+    font-family: 'Didact Gothic', sans-serif;
+    letter-spacing: 1.5px;
+    color: #414141;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1.7;
+    text-align: center;
+}
+.left-page span {
+    font-family: 'Didact Gothic', sans-serif;
+    letter-spacing: 1.5px;
+    color: #414141;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1.7;
+}
+.left-page b {
+    color: red;
+}
+.left-page ul {
+    margin: 30px 0 30px 20px;
+}
+.left-page ul li {
+    margin: 10px 0;
+}
+.form-add-cart {
+    margin: 20px 0;
+}
+.title-quantity {
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+.quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.decrease,
+.increase {
+    width: 30px;
+    height: 50px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity input {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-left: none;
+}
+.btn-add {
+    width: 100%;
+    background-color: #f6d7d8;
+    padding: 13px 0;
+    border: none;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+.packaged {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    padding: 10px;
+}
+.packaged h4 {
+    margin: 15px 0;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+.packaged span {
+    font-family: 'Didact Gothic', sans-serif;
+    letter-spacing: 1.5px;
+    color: #414141;
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 1.7;
+}
+.packaged img {
+    width: 100%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+.img-item {
+    width: 100%;
+}
+.img-item img {
+    width: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,87 @@
+@media screen and (max-width: 768px) {
+    .page-3 {
+        margin-top: -150px;
+    }
+    .top-page-3 {
+        height: 450px;
+    }
+    .info-shop {
+        margin-top: 35px;
+        height: unset;
+    }
+    .info-shop-pd {
+        padding: 0 20px;
+        grid-template-columns: 1fr;
+    }
+    .open-time, .address {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 400px) {
+    .page-3 {
+        margin-top: -50px;
+        overflow-x: hidden;
+    }
+    .top-page-3 {
+        padding: 0 10px;
+    }
+    .top-page-3 img {
+        height: 100%;
+    }
+    .info-shop-pd {
+        padding: 0 10px;
+        grid-template-columns: 1fr;
+    }
+    .info-shop {
+        height: unset;
+        margin-top: 30px;
+    }
+    .our-menus {
+        margin-top: 40px;
+    }
+    .our-menus-pd  {
+        padding: 0;
+    }
+    .our-menus-list {
+        grid-template-columns: 1fr;
+    }
+    .reservation, .open-time, .address {
+        padding: 20px 0 0;
+        width: 380px;
+    }
+    .our-menus,
+    .our-menus-pd,
+    .our-menus-list,
+    .atn-tea {
+        height: unset;
+    }
+    .atn-tea-pd {
+        flex-direction: column;
+        padding: 0;
+    }
+    .atn-tea-text {
+        width: unset;
+        padding: 0 10px;
+    }
+    .grid-list-img:nth-child(2) {
+        grid-template-rows: unset;
+    }
+    .grid-list-img:nth-child(3) {
+        grid-template-rows: unset;
+    }
+    .grid-list-img:nth-child(4) {
+        grid-template-rows: unset;
+    }
+    .grid-list-img:nth-child(5) {
+        grid-template-rows: unset;
+    }
+    .menu-page-3 {
+        margin-top: -100px;
+    }
+    .title-menu-page h2 {
+        font-size: 25px;
+    }
+    .menu-item {
+        width: 90%;
+    }
+}

@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./image/logo.gif" type="image/png">
+    <title>The Cake Bake Shop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/page-1.css">
+    <link rel="stylesheet" href="./css/page-3.css">
+    <link rel="stylesheet" href="./css/page-4.css">
+    <link rel="stylesheet" href="./css/btn-1-home.css">
+    <link rel="stylesheet" href="./css/menu-page-3.css">
+    <link rel="stylesheet" href="./css/add-cart.css">
+    <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./reponsive/header-rp.css">
+    <!-- <link rel="stylesheet" href="./reponsive/home-rp.css"> -->
+    <link rel="stylesheet" href="./reponsive/footer-rp.css">
+    <link rel="stylesheet" href="./reponsive/page-1-2-rp.css">
+    <link rel="stylesheet" href="./reponsive/page-3-rp.css">
+    <link rel="stylesheet" href="./reponsive/cart-rp.css">
+    <link rel="stylesheet" href="./reponsive/add-cart-rp.css">
+    <link rel="stylesheet" href="./reponsive/aboutus-rp.css">
+    
+</head>
+<body>
+    <header id="header">
+        <div class="header-top">
+            <div class="page-width">
+                <div class="menu-search" style="display: flex;">
+                    <div class="menu" onclick="toggleMenu()">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                <path d="M5.83337 8.16663H22.1667" stroke="#222222" stroke-linecap="round"/>
+                                <path d="M5.83337 14H22.1667" stroke="#222222" stroke-linecap="round"/>
+                                <path d="M5.83337 19.8334H22.1667" stroke="#222222" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="show-menu" id="show-menu">
+                        <button class="close-menu" id="close-menu" onclick="hideMenu()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <path d="M30 10L10 30" stroke="#222222" stroke-linecap="square" stroke-linejoin="round"/>
+                                <path d="M10 10L30 30" stroke="#222222" stroke-linecap="square" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <div class="menu-page-1">
+                            <h2>
+                                ORDER FROM OUR BAKERY
+                            </h2>
+                            <ul>
+                                <li class="site-nav-dropdown-item menu-page-none">
+                                    <a href="" class="link-item-drop btn-link" data-page="page-1-1" >
+                                        <span>
+                                            Cakes
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="site-nav-dropdown-item menu-page-none">
+                                    <a href="" class="link-item-drop btn-link" data-page="page-1-2">
+                                        <span>
+                                            Pies
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="site-nav-dropdown-item menu-page-none">
+                                    <a href="" class="link-item-drop btn-link" data-page="page-1-3">
+                                        <span>
+                                            Cheesecakes
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="site-nav-dropdown-item menu-page-none">
+                                    <a href="" class="link-item-drop btn-link" data-page="page-1-4">
+                                        <span>
+                                            Cookies & Bars
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="site-nav-dropdown-item menu-page-none">
+                                    <a href="" class="link-item-drop view-all">
+                                        <span>
+                                            View All ▿
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu-page-1">
+                            <h2>
+                                GIFT SHOP
+                            </h2>
+                            <ul class="site-nav-dropdown-menu">
+                                <li class="site-nav-dropdown-item menu-page-none">
+                                    <div class="title-menu-item">
+                                        <a href=""  class="btn-link" data-page="page-2-1">
+                                            <span>
+                                                HOMEWARE ▾
+                                            </span>
+                                        </a>
+                                        <div class="icon-down" onclick="toggleMenuitem1()">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                <path d="M6 7L12 13L18 7" stroke="#222222"/>
+                                                <path d="M17 18L7 18" stroke="#222222"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <ul class="site-nav-dropdown-item-list" id="site-nav-dropdown-item-list-1">
+                                        <li>
+                                            <a href="">
+                                                <span>
+                                                    Tableware
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span>
+                                                    Bakeware & Cakeware
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span>
+                                                    Tea Towels & Kitchen Linens
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span>
+                                                    Serveware
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span>
+                                                    Decoration
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="link-item-drop view-all">
+                                                <span>
+                                                    View All ▿
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="site-nav-dropdown-item menu-page-none">
+                                    <div class="title-menu-item">
+                                        <a href="" class="btn-link" data-page="page-2-2">
+                                            <span>
+                                                CAKE TOPPING ▾
+                                            </span>
+                                        </a>
+                                        <div class="icon-down" onclick="toggleMenuitem2()">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                <path d="M6 7L12 13L18 7" stroke="#222222"/>
+                                                <path d="M17 18L7 18" stroke="#222222"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <ul class="site-nav-dropdown-item-list"  id="site-nav-dropdown-item-list-2">
+                                        <li>
+                                            <a href="">
+                                                <span>
+                                                    Pixie Glitter®
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span>
+                                                    Pixie Fetti® Sprinkles
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span>
+                                                    Pixie Candle®
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span>
+                                                    Occasion Toppers
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span>
+                                                    Statement Toppers
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="link-item-drop view-all">
+                                                <span>
+                                                    View All ▿
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="site-nav-dropdown-item menu-page-none">
+                                    <div class="title-menu-item">
+                                        <a href="" class="btn-link" data-page="page-2-3">
+                                            <span>
+                                                FOOD & DRINK ▾
+                                            </span>
+                                        </a>
+                                        <div class="icon-down" onclick="toggleMenuitem3()">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                <path d="M6 7L12 13L18 7" stroke="#222222"/>
+                                                <path d="M17 18L7 18" stroke="#222222"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <ul class="site-nav-dropdown-item-list" id="site-nav-dropdown-item-list-3">
+                                        <li>
+                                            <a href="">
+                                                <span>
+                                                    Cookbook
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span>
+                                                    Pixie Jam™ & Pixie Jelly™
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span>
+                                                    Pixie Flavor®
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span>
+                                                    Wine & Champagne
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span>
+                                                    Cake Decorating
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span>
+                                                    Chocolate
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span>
+                                                    Afternoon Tea at Home
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="link-item-drop view-all">
+                                                <span>
+                                                    View All ▿
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="site-nav-dropdown-item menu-page-none">
+                                    <div class="title-menu-item">
+                                        <a href="" class="btn-link" data-page="page-2-4">
+                                            <span>
+                                                GIFTS & OCCASIONS ▾
+                                            </span>
+                                        </a>
+                                        <div class="icon-down" onclick="toggleMenuitem4()">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                <path d="M6 7L12 13L18 7" stroke="#222222"/>
+                                                <path d="M17 18L7 18" stroke="#222222"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <ul class="site-nav-dropdown-item-list" id="site-nav-dropdown-item-list-4">
+                                        <li>
+                                            <a href="">
+                                                <span>
+                                                    Gift Cards
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span>
+                                                    Pixie Cake Dolls®
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span>
+                                                    Clothing & Accessories
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span>
+                                                    Keepsake Ornaments
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span>
+                                                    Stationery
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="link-item-drop view-all">
+                                                <span>
+                                                    View All ▿
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu-page-1">
+                            <h2>
+                                RESTAURANTS & RESERVATIONS
+                            </h2>
+                            <ul>
+                                <li class="site-nav-dropdown-item menu-page-none">
+                                    <a href="" class="link-item-drop btn-link" data-page="page-3" >
+                                        <span>
+                                            Broad Ripple Village
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="site-nav-dropdown-item menu-page-none">
+                                    <a href="" class="link-item-drop">
+                                        <span>
+                                            Carmel City Center
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="site-nav-dropdown-item menu-page-none">
+                                    <a href="" class="link-item-drop">
+                                        <span>
+                                            Disney's BoardWalk At Walt Disney World® 
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="site-nav-dropdown-item menu-page-none">
+                                    <a href="" class="link-item-drop view-all">
+                                        <span>
+                                            View All ▿
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu-page-1">
+                            <h2>
+                                ABOUT US
+                            </h2>
+                            <ul>
+                                <li class="site-nav-dropdown-item menu-page-none">
+                                    <a href="" class="link-item-drop btn-link" data-page="page-4" >
+                                        <span>
+                                            Out teams
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="site-nav-dropdown-item menu-page-none">
+                                    <a href="" class="link-item-drop">
+                                        <span>
+                                            out story
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="site-nav-dropdown-item menu-page-none">
+                                    <a href="" class="link-item-drop btn-link" data-page="contact">
+                                        <span>
+                                            Contact
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="site-nav-dropdown-item menu-page-none">
+                                    <a href="" class="link-item-drop view-all">
+                                        <span>
+                                            View All ▿
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="search" id="search" onclick="toggleDiv()">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                <circle cx="12.8334" cy="12.8333" r="7" stroke="#222222"/>
+                                <path d="M23.3334 23.3333L19.8334 19.8333" stroke="#222222" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="span">
+                            <span>
+                                Search
+                            </span>
+                        </div>
+                    </div>
+                    <div class="show-search" id="show-search">
+                        <form class="input-search">
+                            <svg class="svg-search" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                <circle cx="12.8334" cy="12.8333" r="7" stroke="#222222"/>
+                                <path d="M23.3334 23.3333L19.8334 19.8333" stroke="#222222" stroke-linecap="round"/>
+                            </svg>
+                            <input class="input" type="text" placeholder="Search our store">
+                            <input type="submit" id="submitBtn">
+                        </form>
+                        <button class="close-search" id="close-search" onclick="hideDiv()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <path d="M30 10L10 30" stroke="#222222" stroke-linecap="square" stroke-linejoin="round"/>
+                                <path d="M10 10L30 30" stroke="#222222" stroke-linecap="square" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="logo">
+                    <a href="" class="btn-link" data-page="home">
+                        <img src="./image/logo.gif" alt="">
+                    </a>
+                </div>
+                <div class="login-cart">
+                    <a href="./page/users/login.html">
+                        <div class="login">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                    <circle cx="14" cy="9.33335" r="4.16667" stroke="#222222" stroke-linecap="round"/>
+                                    <path d="M5.84214 19.159C6.60314 16.8509 8.99806 15.75 11.4283 15.75H16.5717C19.0019 15.75 21.3969 16.8509 22.1579 19.159C22.4109 19.9264 22.6159 20.799 22.7037 21.7507C22.7545 22.3006 22.3023 22.75 21.75 22.75H6.25C5.69772 22.75 5.2455 22.3006 5.29626 21.7507C5.38411 20.799 5.5891 19.9264 5.84214 19.159Z" stroke="#222222" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <div class="span">
+                                <span>
+                                    Login
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="btn-link" data-page="cart">
+                        <div class="cart">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                    <path d="M9.33337 14L9.33337 9.33333C9.33337 6.75601 11.4227 4.66667 14 4.66667V4.66667C16.5774 4.66667 18.6667 6.75601 18.6667 9.33333L18.6667 14" stroke="#222222" stroke-linecap="round"/>
+                                    <path d="M4.36102 14.1678C4.50609 12.4269 4.57863 11.5565 5.15271 11.0282C5.7268 10.5 6.60027 10.5 8.3472 10.5H19.6528C21.3997 10.5 22.2732 10.5 22.8473 11.0282C23.4214 11.5565 23.4939 12.4269 23.639 14.1678L24.3195 22.3339C24.404 23.3474 24.4462 23.8542 24.1491 24.1771C23.852 24.5 23.3435 24.5 22.3264 24.5H5.6736C4.65655 24.5 4.14802 24.5 3.85092 24.1771C3.55382 23.8542 3.59605 23.3474 3.68051 22.3339L4.36102 14.1678Z" stroke="#222222"/>
+                                </svg>
+                            </div>
+                            <div class="span">
+                                <span>
+                                    Cart
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="text-center">
+                <ul class="site-nav">
+                    <li class="site-nav-item">
+                        <a href="" class="site-nav-item-a">
+                            <span>
+                                ORDER FROM OUR BAKERY
+                            </span>
+                            <div class="border-bottom"></div>
+                        </a>
+                        <ul class="site-nav-dropdown drop-item-1">
+                            <li class="site-nav-dropdown-item">
+                                <a href="" class="link-item-drop btn-link" data-page="page-1-1" >
+                                    <span>
+                                        Cakes
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="site-nav-dropdown-item">
+                                <a href="" class="link-item-drop btn-link" data-page="page-1-2">
+                                    <span>
+                                        Pies
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="site-nav-dropdown-item">
+                                <a href="" class="link-item-drop btn-link" data-page="page-1-3">
+                                    <span>
+                                        Cheesecakes
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="site-nav-dropdown-item">
+                                <a href="" class="link-item-drop btn-link" data-page="page-1-4">
+                                    <span>
+                                        Cookies & Bars
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="site-nav-dropdown-item">
+                                <a href="" class="link-item-drop view-all">
+                                    <span>
+                                        View All ▿
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="site-nav-item">
+                        <a href="" class="site-nav-item-a">
+                            <span>
+                                GIFT SHOP
+                            </span>
+                            <div class="border-bottom"></div>
+                        </a>
+                        <ul class="site-nav-dropdown drop-item-2">
+                            <li class="site-nav-dropdown-item-2">
+                                <ul class="site-nav-dropdown-item-list">
+                                    <li>
+                                        <a href="">
+                                            <img src="./image/drop/drop-item-list-1.webp" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href=""  class="btn-link" data-page="page-2-1">
+                                            <span>
+                                                HOMEWARE
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Tableware
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Bakeware & Cakeware
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Tea Towels & Kitchen Linens
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Serveware
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Decoration
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="link-item-drop view-all">
+                                            <span>
+                                                View All ▿
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="site-nav-dropdown-item-2">
+                                <ul class="site-nav-dropdown-item-list">
+                                    <li>
+                                        <a href="">
+                                            <img src="./image/drop/drop-item-list-2.avif" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="btn-link" data-page="page-2-2">
+                                            <span>
+                                                CAKE TOPPING
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Pixie Glitter®
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Pixie Fetti® Sprinkles
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Pixie Candle®
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Occasion Toppers
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Statement Toppers
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="link-item-drop view-all">
+                                            <span>
+                                                View All ▿
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="site-nav-dropdown-item-2">
+                                <ul class="site-nav-dropdown-item-list">
+                                    <li>
+                                        <a href="">
+                                            <img src="./image/drop/drop-item-list-3.webp" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="btn-link" data-page="page-2-3">
+                                            <span>
+                                                FOOD & DRINK
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Cookbook
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Pixie Jam™ & Pixie Jelly™
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Pixie Flavor®
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Wine & Champagne
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Cake Decorating
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Chocolate
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Afternoon Tea at Home
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="link-item-drop view-all">
+                                            <span>
+                                                View All ▿
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="site-nav-dropdown-item-2">
+                                <ul class="site-nav-dropdown-item-list">
+                                    <li>
+                                        <a href="">
+                                            <img src="./image/drop/drop-item-list-4.webp" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="btn-link" data-page="page-2-4">
+                                            <span>
+                                                GIFTS & OCCASIONS
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Gift Cards
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Pixie Cake Dolls®
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Clothing & Accessories
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Keepsake Ornaments
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Stationery
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="link-item-drop view-all">
+                                            <span>
+                                                View All ▿
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="site-nav-item">
+                        <a href="" class="site-nav-item-a">
+                            <span>
+                                RESTAURANTS & RESERVATIONS
+                            </span>
+                            <div class="border-bottom"></div>
+                        </a>
+                        <ul class="site-nav-dropdown drop-item-3">
+                            <li class="site-nav-dropdown-item-2">
+                                <ul class="site-nav-dropdown-item-list">
+                                    <li>
+                                        <a href="" class=" btn-link" data-page="page-3">
+                                            <span>
+                                                Broad Ripple Village
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Hours & Location
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Menus
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Gallery
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Reservations
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Private Events  (7-38 guests)
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="site-nav-dropdown-item-2">
+                                <ul class="site-nav-dropdown-item-list">
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Carmel City Center
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Hours & Location
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Menus
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Gallery
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Reservations
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Afternoon Tea
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Private Events (9-120 guests)
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="site-nav-dropdown-item-2">
+                                <ul class="site-nav-dropdown-item-list">
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Disney's BoardWalk At <br> Walt Disney World® 
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Coming Soon!
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="site-nav-item">
+                        <a href="" class="site-nav-item-a">
+                            <span>
+                                ABOUT US
+                            </span>
+                            <div class="border-bottom"></div>
+                        </a>
+                        <ul class="site-nav-dropdown drop-item-4">
+                            <li class="site-nav-dropdown-item-2">
+                                <ul class="site-nav-dropdown-item-list">
+                                    <li>
+                                        <a href="" class="btn-link" data-page="page-4">
+                                            <span>
+                                                OUR TEAM
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                OUR STORY
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="btn-link" data-page="contact">
+                                            <span>
+                                                CONTACT
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="site-nav-dropdown-item-2">
+                                <ul class="site-nav-dropdown-item-list">
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                EXCLUSIVE <br> PARTNERSHIPS
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Williams-Sonoma
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Tiffany & Co. 
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Pottery Barn Teen 
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Costco
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="site-nav-dropdown-item-2">
+                                <ul class="site-nav-dropdown-item-list">
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                MEDIA
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Press
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Videos
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Celebrities
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="site-nav-dropdown-item-2">
+                                <ul class="site-nav-dropdown-item-list">
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                DESSERT CARE
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Frequently Asked Questions
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>
+                                                Careers
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+    
+    

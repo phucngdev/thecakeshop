@@ -1,0 +1,226 @@
+@media screen and (max-width: 1500px) {
+    .menu {
+        display: none;
+    }
+    .show-menu {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    #header {
+        height: auto;
+    }
+    .page-width {
+        height: auto;
+    }
+    .show-menu {
+        display: block;
+        animation: menu-out 0.5s ease;
+    }
+    @keyframes menu-out {
+        from {
+            left: -50%;
+        }
+        to {
+            left: 0;
+        }
+    }
+    .search, .login, .cart, .menu {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    .icon {
+        padding-right: 5px;
+    }
+    .show-search {
+        height: 150px;
+        padding: 0 10px;
+    }
+    .input {
+        width: 100%;
+    }
+    .logo {
+        width: 250px;
+    }
+    .logo img {
+        width: 100%;
+
+    }
+    .text-center {
+        display: none;
+    }
+    .page-width-inside {
+        padding: 0 10px;
+    }
+    .show-menu {
+        position: absolute;
+        left: 0;
+        top: -19px;
+        width: 300px;
+        background-color: #fff;
+        z-index: 99;
+        padding: 80px 10px 10px;
+        overflow-y: scroll;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        display: none;
+    }
+    .close-menu {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    .menu-page-1 h2 {
+        font-family: 'Baskervville', serif;
+        font-size: 1.2rem;
+    }
+    .menu-page-1 > ul {
+        padding-left: 40px;
+        display: block;
+    }
+    .menu-page-none ul li {
+        padding-left: 40px;
+    }
+    .title-menu-item {
+        padding: 5px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .icon-down {
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #000;
+    }
+    .menu-page-none .title-menu-item a span {
+        font-family: sans-serif;
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-weight: 100;
+        color: #414141;
+    }
+    .menu-page-none .site-nav-dropdown-item-list ul li:first-child {
+        margin-left: -40px;
+    }
+    .site-nav-dropdown-item-list {
+        display: none;
+    }
+}
+@media screen and (max-width: 400px) {
+    #header {
+        height: auto;
+    }
+    .page-width {
+        padding: 0 10px;
+        height: auto;
+    }
+    .show-menu {
+        display: block;
+        animation: menu-out 0.5s ease;
+    }
+    @keyframes menu-out {
+        from {
+            left: -50%;
+        }
+        to {
+            left: 0;
+        }
+    }
+    .search, .login, .cart, .menu {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    .search span,
+    .login span,
+    .cart span {
+        display: none;
+    }
+    .show-search {
+        height: 150px;
+        padding: 0 10px;
+    }
+    .input {
+        width: 100%;
+    }
+    .logo {
+        width: 170px;
+    }
+    .logo img {
+        width: 100%;
+
+    }
+    .text-center {
+        display: none;
+    }
+    .page-width-inside {
+        padding: 0 10px;
+    }
+    .prev {
+        left: 10px;
+    }
+    .next {
+        right: 10px;
+    }
+    .show-menu {
+        position: absolute;
+        left: 0;
+        top: -19px;
+        width: 300px;
+        background-color: #fff;
+        z-index: 99;
+        padding: 80px 10px 10px;
+        overflow-y: scroll;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        display: none;
+    }
+    .close-menu {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    .menu-page-1 h2 {
+        font-family: 'Baskervville', serif;
+        font-size: 1.2rem;
+    }
+    .menu-page-1 > ul {
+        padding-left: 40px;
+        display: block;
+    }
+    .menu-page-none ul li {
+        padding-left: 40px;
+    }
+    .title-menu-item {
+        padding: 5px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .icon-down {
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #000;
+    }
+    .menu-page-none .title-menu-item a span {
+        font-family: sans-serif;
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-weight: 100;
+        color: #414141;
+    }
+    .menu-page-none .site-nav-dropdown-item-list ul li:first-child {
+        margin-left: -40px;
+    }
+    .site-nav-dropdown-item-list {
+        display: none;
+    }
+} 
+
+

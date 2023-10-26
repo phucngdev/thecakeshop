@@ -1,0 +1,142 @@
+.cart-page {
+    width: 100%;
+    height: 100%;
+    padding: 0 40px;
+}
+.list-cart-page {
+    margin-top: 50px;
+}
+.title-cart-page h2 {
+    margin-bottom: 16px;
+    font-family: 'Baskervville', serif;
+    font-size: 32px;
+    color: #414141;
+    text-align: center;
+    font-weight: 100;
+}
+.title-cart-page p {
+    color: #414141;
+    font-size: 17px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.title-list,
+.item-in-list {
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr;
+}
+.title-list {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.item-in-list {
+    /* height: 280px; */
+    align-items: center;
+    padding: 20px 0;
+}
+.item-buy p ,
+.price-buy p ,
+.quantity-buy p ,
+.total-buy p,
+.note p,
+.sum-total p,
+.check-out p {
+    font-family: Century Gothic,sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.price-buy ,
+.quantity-buy {
+    display: flex;
+    justify-content: center;
+}
+.item-buy p {
+    text-align: left;
+}
+.total-buy p {
+    text-align: end;
+}
+.item-buy {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.img-item-buy {
+    height: 100%;
+    width: 170px;
+    margin-right: 20px;
+}
+.img-item-buy img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.remove-buy {
+    padding: 7px 10px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #f6d7d7;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+.remove-buy:hover {
+    color: #fff;
+}
+.quantity-buy input {
+    width: 60px;
+    padding: 8px 5px 8px 22px;
+}
+.bottom-buy-page {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+.note,
+.subtotal {
+    width: 50%;
+}
+.note p {
+    text-align: start;
+}
+.note-input {
+    margin-top: 10px;
+    padding: 15px 10px;
+    width: 100% !important;
+}
+.note-input:focus {
+    outline: none;
+}
+.subtotal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.subtotal .span-ship {
+    font-family: Century Gothic,sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.sum-total {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.check-out {
+    padding: 15px 25px;
+    border-radius: 5px;
+    background-color: #f6d7d7;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.check-out p {
+    font-size: 13px;
+    letter-spacing: 2px;
+}

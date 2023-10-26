@@ -1,0 +1,14 @@
+@media screen and (max-width: 400px) {
+    .main-article .form-login {
+        width: 350px;
+        height: unset;
+        padding: 0 10px 30px;
+    }
+    .logo-ig {
+        margin: 20px 0;
+    }
+    .logo-ig img {
+        width: 100%;
+        object-fit: cover;
+    }
+}

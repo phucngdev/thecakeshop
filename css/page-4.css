@@ -1,0 +1,32 @@
+.about-us {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 0 40px;
+}
+.people-item {
+    margin-top: 20px;
+    text-align: center;
+}
+.people-item img {
+    width: 100%;
+    object-fit: cover;
+}
+.f1 p {
+    font-family: 'Baskervville', serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1;
+    color: #414141;
+}
+.f2 h4 {
+    font-family: Century Gothic,sans-serif;
+    font-size: 0.7em;
+    line-height: 0.3;
+    letter-spacing: .2em;
+    color: #414141;
+    padding: 20px 0 10px;
+}

@@ -1,0 +1,137 @@
+a {
+  text-decoration: none !important;
+}
+.main {
+  width: 100%;
+  height: 800px;
+}
+.main-article {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.main-article .phone-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  filter: blur(10px);
+}
+.main-article .form-login {
+  width: 450px;
+  height: 581px;
+  position: absolute;
+  z-index: 99;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+.main-article .form-login .input-login {
+  /* border: 1px solid rgb(219, 219, 219); */
+  width: 100%;
+}
+.main-article .form-login .input-login .logo-ig {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.main-article .form-login .input-login .title-premiun {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.main-article .form-login .input-login .title-premiun span {
+  color: #737373;
+}
+.main-article .form-login .input-login .login-fb {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.main-article .form-login .input-login .login-fb .button {
+  width: 286px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  background-color: #f6d7d7;
+}
+.main-article .form-login .input-login .login-fb .button .text-fb {
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #414141;
+}
+.main-article .form-login .input-login .line-space {
+  width: 100%;
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.main-article .form-login .input-login .line-space .line {
+  height: 1px;
+  width: 29%;
+  background-color: rgb(219, 219, 219);
+}
+.main-article .form-login .input-login .line-space .span span {
+  color: #989898;
+}
+.main-article .form-login .input-login .row {
+  justify-content: center;
+}
+.main-article .form-login .input-login .row .form-control {
+  background-color: rgb(250, 250, 250);
+}
+.main-article .form-login .input-login .row .form-control:focus {
+  outline: none;
+}
+.main-article .form-login .input-login .row .form-control::placeholder {
+  font-size: 13px;
+  color: #a8a8a8;
+}
+.main-article .form-login .input-login .row .submit-btn {
+  background-color: #f6d7d7;
+  border-radius: 10px;
+  color: #414141;
+  font-weight: 600;
+}
+.main-article .form-login .input-login .span-infomation {
+  width: 286px;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto 20px;
+  text-align: center;
+}
+.main-article .form-login .input-login .span-infomation span {
+  cursor: pointer;
+  color: #00376b;
+  font-size: 12px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.main-article .form-login .sign-up {
+  width: 100%;
+  height: 50px;
+  margin-top: 15px;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+.main-article .form-login .sign-up span {
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #000;
+}
+.main-article .form-login .sign-up span a {
+  text-decoration: none;
+}

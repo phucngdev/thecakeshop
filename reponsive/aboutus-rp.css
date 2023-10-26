@@ -1,0 +1,23 @@
+@media screen and (max-width: 400px) {
+    .about-us {
+        grid-template-columns: 1fr 1fr;
+        padding: 0 10px;
+        margin-top: -50px;
+    }
+    .people-item {
+        margin-top: 0;
+    }
+    .people-item img {
+        height: 280px;
+        object-fit: cover;
+    }
+    .f1 p {
+        font-size: 20px;
+    }
+    .f2 h4 {
+        line-height: 2;
+    }
+}
+@media screen and (max-width: 768px) {
+    
+}
